@@ -1,4 +1,4 @@
-# Blockly-to-SVG
+# Blockly to SVG
 
 How to use:
 
