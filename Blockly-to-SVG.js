@@ -33,6 +33,8 @@ function exportPNG(){
     var img = new Image();
     img.onload = function() {
         var canvas = document.createElement('canvas');
+        canvas.width = 800;
+        canvas.height = 600;
         canvas.getContext("2d").drawImage(img, 0, 0);
         download(canvas.toDataURL("image/png"),'blocks.png');
     };
